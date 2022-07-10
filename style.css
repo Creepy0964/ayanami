@@ -1,0 +1,42 @@
+.text {    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    margin: 5px;
+    padding: 0px;
+}
+
+ul.header li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    display: inline; /* Отображать как строчный элемент */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    background-color: rgba(127, 135, 208, 0.5);
+    padding: 3px; /* Поля вокруг текста */
+}
+
+body {
+    background-image: url(ayanami.jpg);
+}
+
+ul.header {
+    padding: 10px;
+    margin: -5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ad {
+    position: absolute;
+    top: 9px;
+    left: 98.5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.why_ayanami li {
+    list-style-type: decimal;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
